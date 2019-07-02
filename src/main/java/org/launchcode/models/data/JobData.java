@@ -79,10 +79,10 @@ public class JobData {
         return matchingJobs;
     }
 
-
-    public void add(Job job) {
-        jobs.add(job);
+    public void add(Job newJob) {
+        jobs.add(newJob);
     }
+
 
 
     private static JobField getFieldByType(Job job, JobFieldType type) {
